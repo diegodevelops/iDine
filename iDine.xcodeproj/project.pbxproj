@@ -14,6 +14,12 @@
 		F1DED5D1293FDCA5004D14E3 /* iDineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DED5D0293FDCA5004D14E3 /* iDineTests.swift */; };
 		F1DED5DB293FDCA5004D14E3 /* iDineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DED5DA293FDCA5004D14E3 /* iDineUITests.swift */; };
 		F1DED5DD293FDCA5004D14E3 /* iDineUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DED5DC293FDCA5004D14E3 /* iDineUITestsLaunchTests.swift */; };
+		F1DED5ED293FDE87004D14E3 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DED5E9293FDE87004D14E3 /* Helper.swift */; };
+		F1DED5EE293FDE87004D14E3 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DED5EA293FDE87004D14E3 /* Order.swift */; };
+		F1DED5EF293FDE87004D14E3 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DED5EB293FDE87004D14E3 /* Menu.swift */; };
+		F1DED5F0293FDE87004D14E3 /* menu.json in Resources */ = {isa = PBXBuildFile; fileRef = F1DED5EC293FDE87004D14E3 /* menu.json */; };
+		F1DED5F229410D97004D14E3 /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DED5F129410D97004D14E3 /* ItemRow.swift */; };
+		F1DED5F42941134E004D14E3 /* ItemDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DED5F32941134E004D14E3 /* ItemDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +50,12 @@
 		F1DED5D6293FDCA5004D14E3 /* iDineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iDineUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1DED5DA293FDCA5004D14E3 /* iDineUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iDineUITests.swift; sourceTree = "<group>"; };
 		F1DED5DC293FDCA5004D14E3 /* iDineUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iDineUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F1DED5E9293FDE87004D14E3 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		F1DED5EA293FDE87004D14E3 /* Order.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		F1DED5EB293FDE87004D14E3 /* Menu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		F1DED5EC293FDE87004D14E3 /* menu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = menu.json; sourceTree = "<group>"; };
+		F1DED5F129410D97004D14E3 /* ItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRow.swift; sourceTree = "<group>"; };
+		F1DED5F32941134E004D14E3 /* ItemDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +108,12 @@
 			children = (
 				F1DED5BF293FDCA4004D14E3 /* iDineApp.swift */,
 				F1DED5C1293FDCA4004D14E3 /* ContentView.swift */,
+				F1DED5F32941134E004D14E3 /* ItemDetail.swift */,
+				F1DED5F129410D97004D14E3 /* ItemRow.swift */,
+				F1DED5E9293FDE87004D14E3 /* Helper.swift */,
+				F1DED5EC293FDE87004D14E3 /* menu.json */,
+				F1DED5EB293FDE87004D14E3 /* Menu.swift */,
+				F1DED5EA293FDE87004D14E3 /* Order.swift */,
 				F1DED5C3293FDCA5004D14E3 /* Assets.xcassets */,
 				F1DED5C5293FDCA5004D14E3 /* Preview Content */,
 			);
@@ -231,6 +249,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1DED5F0293FDE87004D14E3 /* menu.json in Resources */,
 				F1DED5C7293FDCA5004D14E3 /* Preview Assets.xcassets in Resources */,
 				F1DED5C4293FDCA5004D14E3 /* Assets.xcassets in Resources */,
 			);
@@ -257,8 +276,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1DED5F42941134E004D14E3 /* ItemDetail.swift in Sources */,
 				F1DED5C2293FDCA4004D14E3 /* ContentView.swift in Sources */,
 				F1DED5C0293FDCA4004D14E3 /* iDineApp.swift in Sources */,
+				F1DED5EE293FDE87004D14E3 /* Order.swift in Sources */,
+				F1DED5F229410D97004D14E3 /* ItemRow.swift in Sources */,
+				F1DED5ED293FDE87004D14E3 /* Helper.swift in Sources */,
+				F1DED5EF293FDE87004D14E3 /* Menu.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
