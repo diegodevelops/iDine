@@ -20,6 +20,8 @@
 		F1DED5F0293FDE87004D14E3 /* menu.json in Resources */ = {isa = PBXBuildFile; fileRef = F1DED5EC293FDE87004D14E3 /* menu.json */; };
 		F1DED5F229410D97004D14E3 /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DED5F129410D97004D14E3 /* ItemRow.swift */; };
 		F1DED5F42941134E004D14E3 /* ItemDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DED5F32941134E004D14E3 /* ItemDetail.swift */; };
+		F1DED5F62941208E004D14E3 /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DED5F52941208E004D14E3 /* OrderView.swift */; };
+		F1DED5F8294121A8004D14E3 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DED5F7294121A8004D14E3 /* MainView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +58,8 @@
 		F1DED5EC293FDE87004D14E3 /* menu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = menu.json; sourceTree = "<group>"; };
 		F1DED5F129410D97004D14E3 /* ItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRow.swift; sourceTree = "<group>"; };
 		F1DED5F32941134E004D14E3 /* ItemDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetail.swift; sourceTree = "<group>"; };
+		F1DED5F52941208E004D14E3 /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
+		F1DED5F7294121A8004D14E3 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +113,8 @@
 				F1DED5BF293FDCA4004D14E3 /* iDineApp.swift */,
 				F1DED5C1293FDCA4004D14E3 /* ContentView.swift */,
 				F1DED5F32941134E004D14E3 /* ItemDetail.swift */,
+				F1DED5F52941208E004D14E3 /* OrderView.swift */,
+				F1DED5F7294121A8004D14E3 /* MainView.swift */,
 				F1DED5F129410D97004D14E3 /* ItemRow.swift */,
 				F1DED5E9293FDE87004D14E3 /* Helper.swift */,
 				F1DED5EC293FDE87004D14E3 /* menu.json */,
@@ -277,6 +283,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F1DED5F42941134E004D14E3 /* ItemDetail.swift in Sources */,
+				F1DED5F8294121A8004D14E3 /* MainView.swift in Sources */,
+				F1DED5F62941208E004D14E3 /* OrderView.swift in Sources */,
 				F1DED5C2293FDCA4004D14E3 /* ContentView.swift in Sources */,
 				F1DED5C0293FDCA4004D14E3 /* iDineApp.swift in Sources */,
 				F1DED5EE293FDE87004D14E3 /* Order.swift in Sources */,
