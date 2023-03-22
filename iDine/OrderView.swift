@@ -9,10 +9,10 @@ import SwiftUI
 
 struct OrderView: View {
     @EnvironmentObject var order: Order
-    
+    @Environment(\.editMode) private var editMode
     var body: some View {
         NavigationStack {
-            List {
+            Form {
                 Section {
                     ForEach(order.items) { item in
                         HStack {
@@ -21,6 +21,7 @@ struct OrderView: View {
                             Text("$\(item.price)")
                         }
                     }
+                    .onDelete(perform: deleteItems)
                 }
                 
                 Section {
@@ -28,9 +29,17 @@ struct OrderView: View {
                         CheckoutView()
                     }
                 }
+                .disabled(order.items.isEmpty || editMode?.wrappedValue.isEditing == true)
             }
             .navigationTitle("Order")
+            .toolbar {
+                EditButton()
+            }
         }
+    }
+    
+    func deleteItems(at offsets: IndexSet) {
+        order.items.remove(atOffsets: offsets)
     }
 }
 
