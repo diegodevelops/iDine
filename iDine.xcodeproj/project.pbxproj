@@ -22,6 +22,7 @@
 		F1DED5F42941134E004D14E3 /* ItemDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DED5F32941134E004D14E3 /* ItemDetail.swift */; };
 		F1DED5F62941208E004D14E3 /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DED5F52941208E004D14E3 /* OrderView.swift */; };
 		F1DED5F8294121A8004D14E3 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DED5F7294121A8004D14E3 /* MainView.swift */; };
+		F1EB47CD29CB269C00E30AE4 /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1EB47CC29CB269C00E30AE4 /* CheckoutView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,7 @@
 		F1DED5F32941134E004D14E3 /* ItemDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetail.swift; sourceTree = "<group>"; };
 		F1DED5F52941208E004D14E3 /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
 		F1DED5F7294121A8004D14E3 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		F1EB47CC29CB269C00E30AE4 /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +123,7 @@
 				F1DED5EB293FDE87004D14E3 /* Menu.swift */,
 				F1DED5EA293FDE87004D14E3 /* Order.swift */,
 				F1DED5C3293FDCA5004D14E3 /* Assets.xcassets */,
+				F1EB47CC29CB269C00E30AE4 /* CheckoutView.swift */,
 				F1DED5C5293FDCA5004D14E3 /* Preview Content */,
 			);
 			path = iDine;
@@ -284,6 +287,7 @@
 			files = (
 				F1DED5F42941134E004D14E3 /* ItemDetail.swift in Sources */,
 				F1DED5F8294121A8004D14E3 /* MainView.swift in Sources */,
+				F1EB47CD29CB269C00E30AE4 /* CheckoutView.swift in Sources */,
 				F1DED5F62941208E004D14E3 /* OrderView.swift in Sources */,
 				F1DED5C2293FDCA4004D14E3 /* ContentView.swift in Sources */,
 				F1DED5C0293FDCA4004D14E3 /* iDineApp.swift in Sources */,
